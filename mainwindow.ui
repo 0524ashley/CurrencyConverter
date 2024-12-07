@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Currency Converter</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <widget class="QLineEdit" name="currencyLineEdit">
+     <property name="placeholderText">
+      <string>Enter cryptocurrency symbol (e.g., bitcoin)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="convertButton">
+     <property name="text">
+      <string>Convert</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="resultLabel">
+     <property name="text">
+      <string>Conversion result will appear here</string>
+     </property>
+    </widget>
+   </layout>
+  </widget>
+ </widget>
+</ui>
+
